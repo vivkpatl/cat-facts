@@ -1,0 +1,40 @@
+{
+  "name": "cat-facts",
+  "version": "1.0.0",
+  "description": "Winter break side project!",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivkpatl/cat-facts.git"
+  },
+  "keywords": [
+    "cat",
+    "fact",
+    "facts",
+    "cron",
+    "scheduling",
+    "twilio",
+    "node",
+    "nodejs",
+    "rect"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivkpatl/cat-facts/issues"
+  },
+  "homepage": "https://github.com/vivkpatl/cat-facts#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  },
+  "dependencies": {
+    "node-cron": "^2.0.3",
+    "requests": "^0.3.0"
+  }
+}
