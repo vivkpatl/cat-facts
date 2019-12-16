@@ -4,6 +4,7 @@ An exercise in recycling someone else's data to build a useless full-stack appli
 # Team Members
 
 * [@vivkpatl](https://github.com/vivkpatl)
+* [@bbrusniak](https://github.com/bbrusniak)
 * More coming soon
 
 # Dependencies
