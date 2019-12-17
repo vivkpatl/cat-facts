@@ -1,20 +1,14 @@
-import express from 'express';
-import requests from 'requests';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import router from './api/routes';
+let straightContent = 'We gonna let Ben handle this';
 
-let app = express();
+//This is a hack. Really bad way to handle this.
+if (typeof window !== 'undefined') {
+  ReactDOM.render(
+    <div>{straightContent}</div>,
+    document.getElementById('app')
+  );
+}
 
-// Authentication flow and db interaction
-app.use('/api', router);
-
-// Test route to make sure that the API is handling requests
-app.get('/', (req, res, resp) => {
-  res.send("LET'S SEND SOME CAT FACTS GANG");
-});
-
-
-
-app.listen(3000, () => {
-  console.log("App is now listening on port 3000");
-});
+//module.hot.accept();
