@@ -3,6 +3,8 @@ import requests from 'requests';
 
 import router from './routes';
 
+import jobs from './jobs';
+
 let app = express();
 
 // Authentication flow and db interaction
@@ -17,4 +19,10 @@ app.get('/', (req, res, resp) => {
 
 app.listen(3000, () => {
   console.log("App is now listening on port 3000");
+  
+
+  Object.keys(jobs).forEach((key) => {
+    jobs[key].start();
+  });
+
 });
