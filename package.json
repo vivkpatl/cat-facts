@@ -7,7 +7,8 @@
     "start": "babel-node api/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -wd",
-    "dev": "concurrently --kill-others \"babel-node api/server.js\" \"webpack-dev-server --config ./webpack.config.js --mode development\""
+    "dev": "concurrently --kill-others \"babel-node api/server.js\" \"webpack-dev-server --config ./webpack.config.js --mode development\"",
+    "arbitrage": "concurrently git commit -m \"code is almost fully done\"; git push"
   },
   "repository": {
     "type": "git",
