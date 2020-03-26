@@ -1,4 +1,4 @@
-# cat-facts
+# covid-sms-stats
 An exercise in recycling someone else's data to build a full-stack application!
 
 # Team Members
