@@ -1,5 +1,5 @@
 # cat-facts
-An exercise in recycling someone else's data to build a useless full-stack application!
+An exercise in recycling someone else's data to build a full-stack application!
 
 # Team Members
 
